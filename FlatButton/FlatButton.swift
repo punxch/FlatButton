@@ -150,7 +150,7 @@ open class FlatButton: NSButton, CALayerDelegate {
         setup()
     }
     
-    override init(frame: NSRect) {
+    public override init(frame: NSRect) {
         super.init(frame: frame)
         setup()
     }
